@@ -2,6 +2,7 @@
 <div>
   <NavBar/>
   <DemonsTracao/>
+  <ProdutoSite/>
 </div>
 </template>
 
@@ -9,13 +10,15 @@
 // import HelloWorld from './components/HelloWorld.vue';
 import NavBar from './NavBar.vue';
 import DemonsTracao from './Demonstracao.vue';
+import ProdutoSite from './pages/produto/produtosite.vue';
 
 export default {
   name: 'PrinCipal',
   components: {
     
     NavBar,
-    DemonsTracao
+    DemonsTracao,
+    ProdutoSite
   }
 }
 </script>

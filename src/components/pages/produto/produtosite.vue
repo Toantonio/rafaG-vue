@@ -1,5 +1,5 @@
 <template>
-  <!--start produtos-->
+<!--start produtos-->
 <section id="produtos" class="container  p-2">
 	<h2 class="blue px-3">Nosso Produtos</h2>
 	<h2></h2>
@@ -8,7 +8,7 @@
 			<div class="row border-3 rounded-3">
 				<div class="col-12">
 					<a href="pages/produto/produto.html">
-					<img src="img/produtos/bake-1003685_960_720.jpg" class="img img-fluid rounded-3"/></a>
+					<img src="F:/Codigo/Nova pasta/vue/rafagourmet/src/assets/img/produtos/bake-1003685_960_720.jpg" class="img img-fluid rounded-3"/></a>
 				</div>
 				<div class=" blue valor col-12 text-center">
 					<h4>torta gelada</h4>
@@ -30,10 +30,14 @@
 
 <script>
 export default {
-    mane:"ProFrenteSite"
+    name:"ProdutoSite"
 }
 </script>
 
 <style>
-
+[class*="bor"] {
+ 
+    padding: 10px;
+    border: 1px solid #eee;
+}
 </style>

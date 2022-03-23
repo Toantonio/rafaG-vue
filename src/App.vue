@@ -1,6 +1,6 @@
 <template>
 <PrinCipal/>
- 
+ <!-- <ProdutoAdd/> -->
 
 </template>
 
@@ -8,12 +8,13 @@
 // import HelloWorld from './components/HelloWorld.vue';
 
 import PrinCipal from './components/Principal.vue';
+// import ProdutoAdd from './src/components/pages/produto/Produtoadd.vue';
 
 export default {
   name: 'App',
   components: {
-    PrinCipal
-  
+    PrinCipal,
+    // ProdutoAdd
   }
 }
 </script>
