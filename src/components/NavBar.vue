@@ -1,14 +1,5 @@
 <template>
-<header  class=" container  ">
-		<div class="row">		
-			<div class="logo col-md-3 ">
-				<img asrc="./assets\img\RafaGourmetlogo.png" class="imglogo px-3 img-fluid">
-				<img src="src\assets\img\RafaGourmetlogo.png"  class="imglogo px-3 img-fluid">
-			</div>
-			<div class="col-md-3"></div>
-			
-		</div>	
-	</header>
+<LayouT/>
   <nav class="navbar navbar-expand-lg navbar-light bg-orang container sticky-top ">
         <div class="container-fluid">
           <a class="navbar-brand orang1" href="#">RafaGourmet</a>
@@ -46,27 +37,20 @@
 		</div>
         </div>
       </nav>
+      
 </template>
 
 <script>
+import LayouT from "./layout.vue"
 export default {
     name:"NavBar",
+    components:{
+      LayouT
+    }
+  
 }
 </script>
 
 <style>
-header{ 
-    background-color: #2e5566;
-    min-height: 80px;	
-}
-.logo{
-    text-align: center;
-    min-height:80px ;
-}
-.imglogo{
-    height: 80px; 
-}
-.img-1{
-    width: 100%;
-}
+
 </style>

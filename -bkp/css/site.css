@@ -1,0 +1,77 @@
+a{
+	text-decoration: none;
+	color: #eee;
+}
+a:hover{
+	color:#f0a211;
+}
+#demosnstracao{
+	
+	
+	
+}
+.carrcel{
+	background-size: cover;
+	/* background-position: center; */
+	min-height: 150px;
+	max-height: 500px;
+}
+.car-1{
+	background-image: url(../img/produtos/bake-1003685_960_720.jpg);
+}
+.car-2{
+	background-image: url(../img/produtos/produto01.jpg);
+}
+.car-3{
+	background-image: url(../img/produtos/produto03.jpg);
+}
+#produtos{
+	height: auto;
+}
+.social-1{
+	max-height:70px ;
+
+}
+.social-2{
+	max-height:10px ;
+}
+#propaganda1{
+
+	padding: 0;
+	width: 100%;
+	background-image: url(../img/propaganda/p200x1000-01.jpg);	
+	min-height: 160px;
+	height: 100%;	
+}
+#propaganda2{
+	background-image: url(../img/propaganda/p200x1000.jpg);
+	
+	min-height: 140px;
+
+}
+/* .propaganda3{
+	background-image: url(../img/propaganda/p300x800-01.jpg);	
+	background-size: cover;
+	min-height: 533px;
+} */
+#novidades{	
+	height: auto;
+}
+.novidade1{ }
+.areasocial{
+
+	
+}
+.novidade2{
+text-align: center;
+
+}
+footer{
+	
+	min-height:50px;
+	height: auto;
+	text-align: center;
+	padding: 5px;
+
+}
+
