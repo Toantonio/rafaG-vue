@@ -15,7 +15,7 @@
                 <a class="nav-link" href="pages/logon/logon.html" target="blanck">Entrar</a>
               </li>
 			<li class="nav-item">
-                <a class="nav-link" href="pages/carrinho/carrinho.html" target="blanck">Carrinho</a>
+                <a class="nav-link" href="./src/components/pages/produto/produtoadd.vue" target="blanck">Carrinho</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
