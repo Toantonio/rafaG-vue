@@ -3,6 +3,8 @@
   <NavBar/>
   <DemonsTracao/>
   <ProdutoSite/>
+  <!-- <PropaGanda/> -->
+  <AreaSocial/>
 </div>
 </template>
 
@@ -11,12 +13,16 @@
 import NavBar from '@/components/NavBar.vue';
 import DemonsTracao from '@/components/Demonstracao.vue';
 import ProdutoSite from '@/components/pages/produto/produtosite.vue';
+// import PropaGanda from '@/components/propaganda.vue';
+import AreaSocial from '@/components/areasocial.vue';
 
 export default {
   components: {  
     NavBar,
     DemonsTracao,
-    ProdutoSite
+    ProdutoSite,
+    // PropaGanda,
+    AreaSocial
   }
 }
 </script>

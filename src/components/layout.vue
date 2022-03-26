@@ -2,7 +2,7 @@
   <header  class=" container  ">
 		<div class="row">		
 			<div class="logo">
-				<img src="../assets/RafaGourmetlogo.png" class="imglogo px-3 img-fluid">
+				<img src="@/assets/RafaGourmetlogo.png" class="imglogo px-3 img-fluid">
 			</div>
 		</div>	
 	</header>

@@ -1,22 +1,11 @@
 <template>
-<PrinCipal/>
- <!-- <ProdutoAdd/> -->
-
+  <!-- <nav>
+    <router-link to="/">Home</router-link> |
+    <router-link to="/about">About</router-link>
+  </nav> -->
+  <router-view/>
 </template>
 
-<script>
-// import HelloWorld from './components/HelloWorld.vue';
+<style>
 
-import PrinCipal from './components/Principal.vue';
-// import ProdutoAdd from './src/components/pages/produto/Produtoadd.vue';
-
-export default {
-  name: 'App',
-  components: {
-    PrinCipal,
-    // ProdutoAdd
-  }
-}
-</script>
-
-
+</style>

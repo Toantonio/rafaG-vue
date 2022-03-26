@@ -1,18 +1,18 @@
 <template>
 <DemostFoto/>
 <section id="demosnstracao" class=" container my-2 ">
- <H3 class="blue">Noassa delicias</H3>
+ <H3 class="blue"> Novidades</H3>
                 <div class="p-4">
                     <div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
                         <div class="carousel-inner col md-8">
                             <div class="carousel-item active">
-                            <img src="../assets/img/produtos/bake-1003685_960_720.jpg" class=" carrcel car-3 d-block w-100 img-fluid" >
+                            <img src="@/assets/img/produtos/bake-1003685_960_720.jpg" class=" carrcel car-3 d-block w-100 img-fluid" >
                             </div>
                             <div class="carousel-item">
-                            <img src="../assets/img/produtos/produto03.jpg" class="carrcel car-1 d-block w-100 img-fluid" >
+                            <img src="@/assets/img/produtos/produto03.jpg" class="carrcel car-1 d-block w-100 img-fluid" >
                             </div>
                             <div class="carousel-item">
-                            <img src="../assets/img/produtos/produto01.jpg" class="carrcel car-2 d-block w-100 img-fluid" >
+                            <img src="@/assets/img/produtos/produto01.jpg" class="carrcel car-2 d-block w-100 img-fluid" >
                             </div>
                         </div>
                     </div>
@@ -38,13 +38,13 @@ export default {
 	max-height: 1800px;
 }
 .car-1{
-	background-image: url(../assets/img/produtos/bake-1003685_960_720.jpg);
+	background-image: url(@/assets/img/produtos/bake-1003685_960_720.jpg);
 }
 .car-2{
-	background-image: url(../assets/img/produtos/produto01.jpg);
+	background-image: url(@/assets/img/produtos/produto01.jpg);
 }
 .car-3{
-	background-image: url(../assets/img/produtos/produto03.jpg);
+	background-image: url(@/assets/img/produtos/produto03.jpg);
 }
 #produtos{
 	height: auto;
