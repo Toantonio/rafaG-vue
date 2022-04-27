@@ -5,6 +5,10 @@
   <ProdutoSite/>
   <!-- <PropaGanda/> -->
   <AreaSocial/>
+  <MapSite/>
+  <PGanda2/>
+  <NoviDade/>
+  <RodaPe/>
 </div>
 </template>
 
@@ -15,6 +19,10 @@ import DemonsTracao from '@/components/Demonstracao.vue';
 import ProdutoSite from '@/components/pages/produto/produtosite.vue';
 // import PropaGanda from '@/components/propaganda.vue';
 import AreaSocial from '@/components/areasocial.vue';
+import MapSite from '@/components/MapSite.vue';
+import PGanda2 from '@/components/pages/propaganda/p-ganda2.vue';
+import NoviDade from '@/components/novidades.vue';
+import RodaPe from '@/components/footer.vue';
 
 export default {
   components: {  
@@ -22,11 +30,23 @@ export default {
     DemonsTracao,
     ProdutoSite,
     // PropaGanda,
-    AreaSocial
+    AreaSocial,
+    MapSite,
+    PGanda2,
+    NoviDade,
+    RodaPe
+
   }
 }
 </script>
 <style>
+a{
+	text-decoration: none;
+	color: #eee;
+}
+a:hover{
+	color:#f0a211;
+}
 .bg-white { background-color: #eee;}
 .white { color: #eee}
 
@@ -44,4 +64,11 @@ export default {
 
 .bg-black {background-color: #201e1e;}
 .black { color: #201e1e;}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+    /* border: 1px solid red; */
+
+}
 </style>

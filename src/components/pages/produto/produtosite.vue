@@ -42,4 +42,7 @@ export default {
     padding: 10px;
     border: 1px solid #eee;
 }
+#produtos{
+	height: auto;
+}
 </style>

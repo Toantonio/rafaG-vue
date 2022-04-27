@@ -114,5 +114,11 @@ export default {
 </script>
 
 <style>
+.social-1{
+	max-height:70px ;
 
+}
+.social-2{
+	max-height:10px ;
+}
 </style>

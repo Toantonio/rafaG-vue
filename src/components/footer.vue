@@ -49,5 +49,12 @@ export default {
 </script>
 
 <style>
+footer{
+	
+	min-height:50px;
+	height: auto;
+	text-align: center;
+	padding: 5px;
 
+}
 </style>
