@@ -20,7 +20,8 @@
 					</div>
 					<div class="col-6">
 						<button type="button" class="col-12 rounded-3 bg-orang white bor_1">
-							<a href="pages/produto/produto.html" target="blanck" class="white" >COMPRAR</a>
+							<!-- <a href="/ProdutoVenda" target="blanck" class="white" >COMPRAR</a> -->
+						<router-link to="/logon" class="btn">Entrar</router-link>
 							</button>
 					</div>
 				</div>

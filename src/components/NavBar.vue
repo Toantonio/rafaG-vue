@@ -13,6 +13,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/logon" target="blanck">Entrar</a>
+                <router-link to="/logon" class="nav-link">Entrar</router-link> <!-- usa esse agora no vue-->
               </li>
 			<li class="nav-item">
                 <a class="nav-link" href="@/components/pages/produto/produtoadd.vue" target="blanck">Carrinho</a>
