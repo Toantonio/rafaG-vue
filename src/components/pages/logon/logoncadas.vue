@@ -8,24 +8,20 @@
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email </label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                            <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
-                            <a href="ms-auto">Esqueceu</a> ou <a href="">Cadastrese</a>
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Senha</label>
                             <input type="password" class="form-control" id="exampleInputPassword1">
-                            <a href="">Esqueceu</a>
+                            <label for="exampleInputPassword1" class="form-label">Repita a Senha</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                           
                         </div>
                         <div class="mb-3 form-check">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label" for="exampleCheck1">Mantenha-me conectado</label>
                         </div>
                         <div class="text-center">
-                            <button type="button " class="btn px-5  orang bg-blue  cal-12" @click="loganUsuario()">LOGIN</button>
-                            <button type="button" class="col-12 rounded-3 bg-info pb-1 bor_1 mt-3">
-							<!-- <a href="/ProdutoVenda" target="blanck" class="white" >COMPRAR</a> -->
-						<router-link to="/logonCadas" class="btn text-danger"><b>cadastre-se</b> </router-link>
-							</button>
+                            <button type="submit " class="btn px-5  orang bg-blue  cal-12" @click="loganUsuario()">LOGIN</button>
                         </div>
                     </form>
                 </div>
@@ -38,20 +34,12 @@
 
 // import NavbarPage from "@/components/NavbarPage.vue";
 import UsuarioService from "@/services/usuario";
-// import LogonCadas from "./logoncadas.vue";
 export default {
-     name:'logonUser',
-  components:{
-    // LogonCadastro
+     name:'logonCadastro',
+  components: {
+    // NavbarPage,
   },
-  data() {
-    // return {
-    //   dadosUsuario: {
-    //     usuario: "",
-    //     senha: "",
-    //   },
-    // };
-  },
+ 
   mounted() {
     this.listarUsuarios();
   },

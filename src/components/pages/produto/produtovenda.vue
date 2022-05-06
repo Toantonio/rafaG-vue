@@ -1,25 +1,29 @@
 <template>
-  <section id="descricao" class=" container p-2  bg-white1 ">
-    <div class="row">
-      <div class=" col-12 p-4 ">
-        <div class=" i row">
-          <div class="col-md-7 col-12 ">
-          <div class="   rounded-3  p-1 bg-white "><!--foto da torta-->
+<section id="descricao" class=" container p-2  bg-white1 ">
+          <div class="col-12   bg-white ">
+            <h4 class="text-uppercase">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+           
+          </div>
             <div class="col-12"><h3>Torta Gelada de Frutas</h3></div>
+    <div class="row">
+      <div class=" col-12  ">
+        <div class=" i row">
+          <div class="col-6 p-2 px-3">
+            <i class="bi bi-heart"> Favorito</i>
+          </div>
+          <div class="col-6">
+            <i class="bi bi-share"> Compartilhar</i>
+          </div>
+          <div class="col-md-8 col-12 ">
+          <div class="   rounded-3   bg-white "><!--foto da torta-->
             <div class="row">
-              <div class=" img-1 col-md-6 col-12 p-3">
-                <div class="row">
-                  <div class="col-6 p-2 px-3">
-                    <i class="bi bi-heart"> Favorito</i>
-                  </div>
-                  <div class="col-6">
-                    <i class="bi bi-share"> Compartilhar</i>
-                  </div>
+              <div class=" img-1 col-md-6 col-12 ">
+                <div class="row">                  
                   <div class=" ">
                     <div class=" img-2 col-2 white ">
                       <p class="px-4">Torta Gelada de Frutas</p>
                     </div>
-                    <div class="">
+                    <div class=" m-3">
                       <img src="../../../assets/img/produtos/bake-1003685_960_720.jpg" class="img img-fluid rounded-3"/>
                     </div>
                   </div>
@@ -35,7 +39,7 @@
                       quo eligendi itaque deserunt repudiandae, incidunt accusamus natus tempore autem! .</p>
                   </div>
                 </div> 
-                <div class="col-12 border-3 border-bottom-0 border-start-0 border-end-0 orang1 mt-2 p-0">
+                <div class="col-12 border-3 border-bottom-0 border-start-0 border-end-0 orang1 ">
                   
                   <div class=" px-3 h2 mt-2">
                     <i class="bi bi-star-fill"></i>
@@ -49,17 +53,15 @@
               
           </div>
           </div>
-          <div class="col-md-1"></div>
-
-          <div class="venda col-md-4 col-12 pt-5 mt-5"><!--parte de compras-->
-              <div class="  border-3 rounded-3  mt-2 bg-white p-3">
-              <div class=""> <h4 class="orang1 mt-1"> Torta Gelada de frutas </h4></div>
+          <div class="venda col-md-4 col-12 p-0 "><!--parte de compras-->
+              <div class="  border-3 rounded-3  mt-2 bg-white p-3 mt-5">
+              <div class=""> <h4 class="orang1 m-3"> Torta Gelada de frutas </h4></div>
               <div class="mt-1 px-4"> <h2>RS:00,0</h2></div>
               <div class="p-0"><p class="">Em ate 12X sem juros nos <b>Cartoes de credito</b></p></div>
               <div class=" text-end "><a href="">mais formas de pagamentos</a></div>
               <div class="  border-bottom border-start-0 border-end-0 border-top py-3">
                 <p>calcular frete e prazo</p>
-                <div class="">
+                <div class=" mt-3">
                   <form><!--retirado da internet--> 
                     <label for="CEP">
                     <input name="CEP" id="CEP"  placeholder="Digite o CEP" required pattern="\d{5}-\d{3}"/>
@@ -68,9 +70,12 @@
                   </form>
                 </div>
               </div>
-              <div class="d-grid gap-2 pt-2 mt-2">
-                <button class="btn bg-info p-2" type="button"><i class="bi bi-basket2-fill">  Comprar</i></button>
-               </div>
+             <div class="col-12">
+					<button type="button" class="col-12 rounded-3 bg-info pb-1 bor_1">
+							<!-- <a href="/ProdutoVenda" target="blanck" class="white" >COMPRAR</a> -->
+						<router-link to="/" class="btn text-danger"><b>Comprar</b> </router-link>
+							</button>
+					</div>
               
               <div class="p-2 ">
                 <p>Este produto e vendido e entregue por <b>RafaGourmet</b></p>
@@ -80,8 +85,121 @@
           </div>
         </div>
       </div>
+      <div class="col-12 bg-blue">
+
+      </div>
     </div>
 	</section>
+	
+	<!-- <section id="avaliacao" class="container bg-white1  ">
+		<div class="row p-3">
+      <div class="col-12  bg-white p-3 rounded-3 my-3">
+        <h4>Avaliações</h4>
+        <div class="p-3">
+          <div class="row">
+            <div class="col-md-3 col-12">
+              <h3>5.0</h3>
+                <div class="">
+                  avaliadio em 50 avaliações
+                </div>
+                <div class="">
+                  <div class=" px-3  mt-2">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                  </div>
+                </div>           
+            </div>
+              <div class="col-md-3 col-12 p-3 border-2 border-top-0 border-bottom-0">
+                <div class="row">
+                <div class="col-md-6">
+                  <button type="button" class="btn btn-warning">100%</button>
+                </div>
+                <div class="col-md-6">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-12 p-3">                
+                  <form action="">
+                    <div class="row">
+                      <div class="col-12">
+                        <select class="form-select " aria-label="Default select example">
+                          <option selected>Open this select menu</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                      <div class="col-6">
+                        <select class="form-select " aria-label="Default select example">
+                          <option selected>Open this select menu</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                      <div class="col-6">
+                        <select class="form-select " aria-label="Default select example">
+                          <option selected>Open this select menu</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                    </div>
+                  </form>
+              </div>
+            </div>
+          </div>        
+      <div class="col-12">
+        <div class=" px-4">
+          <div class="row ">
+            <h4>Top</h4>
+              <div class="col-8 p-4">
+              <div class="">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+             <p>MInha Mãe comprou e achou muito bom</p>
+              <div class="">
+                <p>Visto em 22/05/2018  <button type="button" class="btn btn-warning">
+                   <i class="bi bi-check-lg"></i> Comprei e Avaliei</button> 
+              </div>
+              </div>
+              <div class="col-4 border-2 border-top-0 border-bottom-0 border-end-0 p-3 text-center ">
+                <h4>essa avaliação foi útil ?</h4>
+                <div class=" py-3"> 
+                  <i class="bi bi-hand-thumbs-down h3 px-3"></i>
+                  <i class="bi bi-hand-thumbs-up h3 px-3"></i>
+                </div>               
+              </div>
+          </div>
+        </div>
+      </div>      
+	</section>
+
+  <section id="avaliacao" class="container bg-white1 ">
+   <div>
+      <div class=" col-12  bg-white  rounded-3">
+        <div class="row p-2">
+        <h4>Duvidas sobre o produto</h4>
+        <div class="col-8 p-4">
+          <h5>Vem tirar suas duvidas :)</h5>
+        </div>
+        <div class="col-4  border-2 border-top-0 border-bottom-0 border-end-0 p-3 text-center">
+          <a class="nav-link" href="" target="blanck">
+            <button type="button" class="btn btn-outline-danger">Escrever comentario</button></a>
+          
+          </div>
+      </div>      
+    </div>
+  </section> -->
 </template>
 
 <script>

@@ -19,14 +19,27 @@ const routes = [
 
     path:'/logon',// href="/logon" 
     name:'logonUser',
-    component: () => import('@/views/logonView.vue')
+    component: () => import('@/components/pages/logon/logon.vue')
+  },
+  {
+
+    path:'/logonCadas',// href="/logon" 
+    name:'LogonCadastro',
+    component: () => import('@/components/pages/logon/logonCadas.vue')
   },
   {
 
     path:'/ProdutoVenda',// href="/logon" 
     name:'ProdutoVenda',
     component: () => import('@/components/pages/produto/produtovenda.vue')
+  },
+  {
+
+    path:'/ProdutoCadastro',// href="/logon" 
+    name:'ProdutoCadastro',
+    component: () => import('@/components/pages/produto/produtovenda.vue')
   }
+
 ]
 
 const router = createRouter({

@@ -12,11 +12,12 @@
                 <a class="nav-link active" aria-current="page" href="#">inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/logon" target="blanck">Entrar</a>
+                <!-- <a class="nav-link" href="/logon" target="blanck">Entrar</a> -->
                 <router-link to="/logon" class="nav-link">Entrar</router-link> <!-- usa esse agora no vue-->
               </li>
-			<li class="nav-item">
-                <a class="nav-link" href="@/components/pages/produto/produtoadd.vue" target="blanck">Carrinho</a>
+		<li class="nav-item">
+                <!-- <a class="nav-link" href="@/components/pages/produto/produtoadd.vue" target="blanck">Carrinho</a> -->
+                <router-link to="/" class="nav-link">Carrinho</router-link>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
