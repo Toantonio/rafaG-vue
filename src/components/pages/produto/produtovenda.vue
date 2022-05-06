@@ -1,42 +1,36 @@
 <template>
-  <section id="descricao" class=" container p-2  bg-white1 ">
-    <div class="row">
-      <div class=" col-12 p-4 ">
-        <div class=" i row">
-          
-          <div class="col-12  p-3 bg-white ">
+<section id="descricao" class=" container p-2  bg-white1 ">
+          <div class="col-12   bg-white ">
             <h4 class="text-uppercase">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-            <nav aria-label="breadcrumb">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">incio</a></li>
-                <li class="breadcrumb-item active" aria-current="page">produto</li>
-              </ol>
-            </nav>
+           
+          </div>
+            <div class="col-12"><h3>Torta Gelada de Frutas</h3></div>
+    <div class="row">
+      <div class=" col-12  ">
+        <div class=" i row">
+          <div class="col-6 p-2 px-3">
+            <i class="bi bi-heart"> Favorito</i>
+          </div>
+          <div class="col-6">
+            <i class="bi bi-share"> Compartilhar</i>
           </div>
           <div class="col-md-8 col-12 ">
-          <div class="   rounded-3 mt-2 p-3 bg-white "><!--foto da torta-->
-            <div class="col-12"><h3>Torta Gelada de Frutas</h3></div>
+          <div class="   rounded-3   bg-white "><!--foto da torta-->
             <div class="row">
-              <div class=" img-1 col-md-6 col-12 p-3">
-                <div class="row">
-                  <div class="col-6 p-2 px-3">
-                    <i class="bi bi-heart"> Favorito</i>
-                  </div>
-                  <div class="col-6">
-                    <i class="bi bi-share"> Compartilhar</i>
-                  </div>
+              <div class=" img-1 col-md-6 col-12 ">
+                <div class="row">                  
                   <div class=" ">
                     <div class=" img-2 col-2 white ">
                       <p class="px-4">Torta Gelada de Frutas</p>
                     </div>
-                    <div class="">
-                      <img src="#" class="img img-fluid rounded-3"/>
+                    <div class=" m-3">
+                      <img src="../../../assets/img/produtos/bake-1003685_960_720.jpg" class="img img-fluid rounded-3"/>
                     </div>
                   </div>
                 </div>
               </div>
 
-                <div class="col-md-6 col-12 mt-2 border-end-0 border-top-0 border-bottom-0 p-2">
+                <div class=" col-12 mt-2 border-end-0 border-top-0 border-bottom-0 p-2">
                   <div class="  ">
                     <h4>Descrição do Produto</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat blanditiis quisquam animi
@@ -45,7 +39,7 @@
                       quo eligendi itaque deserunt repudiandae, incidunt accusamus natus tempore autem! .</p>
                   </div>
                 </div> 
-                <div class="col-12 border-3 border-bottom-0 border-start-0 border-end-0 orang1 mt-2 p-0">
+                <div class="col-12 border-3 border-bottom-0 border-start-0 border-end-0 orang1 ">
                   
                   <div class=" px-3 h2 mt-2">
                     <i class="bi bi-star-fill"></i>
@@ -59,15 +53,15 @@
               
           </div>
           </div>
-          <div class="venda col-md-4 col-12 p-0"><!--parte de compras-->
-              <div class="  border-3 rounded-3  mt-2 bg-white p-3">
-              <div class=""> <h4 class="orang1 mt-1"> Torta Gelada de frutas </h4></div>
+          <div class="venda col-md-4 col-12 p-0 "><!--parte de compras-->
+              <div class="  border-3 rounded-3  mt-2 bg-white p-3 mt-5">
+              <div class=""> <h4 class="orang1 m-3"> Torta Gelada de frutas </h4></div>
               <div class="mt-1 px-4"> <h2>RS:00,0</h2></div>
               <div class="p-0"><p class="">Em ate 12X sem juros nos <b>Cartoes de credito</b></p></div>
               <div class=" text-end "><a href="">mais formas de pagamentos</a></div>
               <div class="  border-bottom border-start-0 border-end-0 border-top py-3">
                 <p>calcular frete e prazo</p>
-                <div class="">
+                <div class=" mt-3">
                   <form><!--retirado da internet--> 
                     <label for="CEP">
                     <input name="CEP" id="CEP"  placeholder="Digite o CEP" required pattern="\d{5}-\d{3}"/>
@@ -76,9 +70,12 @@
                   </form>
                 </div>
               </div>
-              <div class="d-grid gap-2 pt-2 mt-2">
-                <button class="btn bg-red p-2" type="button"><i class="bi bi-basket2-fill">  Comprar</i></button>
-               </div>
+             <div class="col-12">
+					<button type="button" class="col-12 rounded-3 bg-info pb-1 bor_1">
+							<!-- <a href="/ProdutoVenda" target="blanck" class="white" >COMPRAR</a> -->
+						<router-link to="/" class="btn text-danger"><b>Comprar</b> </router-link>
+							</button>
+					</div>
               
               <div class="p-2 ">
                 <p>Este produto e vendido e entregue por <b>RafaGourmet</b></p>
@@ -94,7 +91,7 @@
     </div>
 	</section>
 	
-	<section id="avaliacao" class="container bg-white1  ">
+	<!-- <section id="avaliacao" class="container bg-white1  ">
 		<div class="row p-3">
       <div class="col-12  bg-white p-3 rounded-3 my-3">
         <h4>Avaliações</h4>
@@ -202,9 +199,7 @@
           </div>
       </div>      
     </div>
-  </section>
-
- 
+  </section> -->
 </template>
 
 <script>
@@ -222,11 +217,17 @@ export default {
     /* float: right; */
     position: absolute;
     margin-top: 20px;
-   
-
 }
-.ok{
+.img{background-image: url(../../../assets/img/produtos/bake-1003685_960_720.jpg);
+background-position: center;background-size: cover;}
+/* .ok{
     border-color:#f80707 ;
     color: #f80707;
-}
+} */
+ /* [class*="col-"] {
+    float: left;
+    padding: 10px;
+    border: 1px solid red;
+
+} */
 </style>

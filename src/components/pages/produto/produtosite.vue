@@ -2,7 +2,7 @@
 <!--start produtos-->
 <section id="produtos" class="container  p-2">
 	<h2 class="blue text-start">Nosso Produtos</h2>
-	<h2></h2>
+	
 	<div class="row p-2">		
 		<div class="col-md-3 col-12 p-3">
 			<div class=" col-12 ">
@@ -13,16 +13,24 @@
 					</div>
 					<div class=" blue valor col-12 text-center">
 						<h4>torta gelada</h4>
-						<p>RS:00,00</p>
+						<p>{{}}</p>
 					</div>
 					<div class="col-6">
-						<input type="number" step="0" min="1" max="10" value="0" class=" col-12 rounded-3"/>
+						<input type="number" step="0" min="1" max="10" value="0" class=" col-12  rounded-3"/>
 					</div>
 					<div class="col-6">
-						<button type="button" class="col-12 rounded-3 bg-orang white bor_1">
-							<a href="pages/produto/produto.html" target="blanck" class="white" >COMPRAR</a>
+						<button type="button" class="col-12 rounded-3 bg-orang pb-1 bor_1">
+							<!-- <a href="/ProdutoVenda" target="blanck" class="white" >COMPRAR</a> -->
+						<router-link to="/ProdutoVenda" class="btn  p-1"><b>Comprar</b></router-link>
 							</button>
 					</div>
+					<div class="col-12">
+					<button type="button" class="col-12 rounded-3 bg-info pb-1 bor_1">
+							<!-- <a href="/ProdutoVenda" target="blanck" class="white" >COMPRAR</a> -->
+						<router-link to="/" class="btn text-danger"><b>Adicionar ao Carrinho</b> </router-link>
+							</button>
+					</div>
+
 				</div>
 			</div>
 		</div>
@@ -41,5 +49,8 @@ export default {
  
     padding: 10px;
     border: 1px solid #eee;
+}
+#produtos{
+	height: auto;
 }
 </style>

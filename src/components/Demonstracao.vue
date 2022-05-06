@@ -56,18 +56,5 @@ export default {
 .social-2{
 	max-height:10px ;
 }
-/* #propaganda1{
 
-	padding: 0;
-	width: 100%;
-	background-image: url(../img/propaganda/p200x1000-01.jpg);	
-	min-height: 160px;
-	height: 100%;	
-}
-#propaganda2{
-	background-image: url(../img/propaganda/p200x1000.jpg);
-	
-	min-height: 140px;
-
-} */
 </style>

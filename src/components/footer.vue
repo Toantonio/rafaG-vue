@@ -16,7 +16,7 @@
                     <a href="https://pt-br.facebook.com/" target="blank">Facebook</a>
                 </div>
                 <div class="">
-                    <a href="https://api.whatsapp.com/send?l=pt-BR&phone=5521969325181&text=vindo%20de%20RafaGouemet" target="blank"> <i class="bi bi-whatsapp"></i></a>
+                    <a href="#" target="blank"> <i class="bi bi-whatsapp"></i></a>
                     
                 </div>
                 <div class="">
@@ -31,7 +31,7 @@
         <div class="col-md-4">
             <h6>Formas de Pagamento</h6>
             <div class="">
-                <img src="img/pagamento.jpg" srcset="" class="img-fluid">
+                <img src="../assets/img/pagamento.jpg" srcset="" class="img-fluid">
             </div>
         </div>	
         <div class="col-12 p-0 ">
@@ -49,5 +49,12 @@ export default {
 </script>
 
 <style>
+footer{
+	
+	min-height:50px;
+	height: auto;
+	text-align: center;
+	padding: 5px;
 
+}
 </style>

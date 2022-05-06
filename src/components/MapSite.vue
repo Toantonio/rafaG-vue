@@ -12,12 +12,15 @@
 			</div>
 		</div>
 	</section>
+	
 </template>
 
 <script>
+
 export default {
-    name:'MapSite'
-}
+    name:'MapSite',
+
+};
 </script>
 
 <style>
