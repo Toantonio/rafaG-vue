@@ -25,7 +25,7 @@ const routes = [
 
     path:'/logonCadas',// href="/logon" 
     name:'LogonCadastro',
-    component: () => import('@/components/pages/logon/logonCadas.vue')
+    component: () => import('@/components/pages/logon/logoncadas.vue')
   },
   {
 

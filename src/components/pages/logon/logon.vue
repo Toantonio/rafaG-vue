@@ -22,10 +22,10 @@
                         </div>
                         <div class="text-center">
                             <button type="button " class="btn px-5  orang bg-blue  cal-12" @click="loganUsuario()">LOGIN</button>
-                            <button type="button" class="col-12 rounded-3 bg-info pb-1 bor_1 mt-3">
+                            <!-- <button type="button" class="col-12 rounded-3 bg-orang pb-1 bor_1 mt-3"> -->
 							<!-- <a href="/ProdutoVenda" target="blanck" class="white" >COMPRAR</a> -->
-						<router-link to="/logonCadas" class="btn text-danger"><b>cadastre-se</b> </router-link>
-							</button>
+						<router-link to="/logonCadas" class="btn col-12 rounded-3 bg-orang pb-1 bor_1 mt-3 text-danger"><b>cadastre-se</b> </router-link>
+							<!-- </button> -->
                         </div>
                     </form>
                 </div>
@@ -36,13 +36,13 @@
 
 <script>
 
-// import NavbarPage from "@/components/NavbarPage.vue";
+
 import UsuarioService from "@/services/usuario";
-// import LogonCadas from "./logoncadas.vue";
+
 export default {
      name:'logonUser',
   components:{
-    // LogonCadastro
+   
   },
   data() {
     // return {

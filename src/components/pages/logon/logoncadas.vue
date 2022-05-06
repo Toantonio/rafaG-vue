@@ -1,10 +1,20 @@
 <template>
-    <section id="logon" class=" container ">
+  <section id="logon" class=" container ">
         <div class="row my-5">	
-            <div class="col-md-4"></div>
-                <div class="col-md-4 col-12 bor-1 rounded">
+            <div class="col-md-3"></div>
+                <div class="col-md-6 col-12 bor-1 rounded">
                     <form action="" method="post">
-                        <h2>Fazer Login</h2>
+						<h2>Fazer Cadastro</h2>
+						<div class="row">
+							<div class="mb-3 col-md-6">
+								<label for="exampleInputEmail1" class="form-label">Nome</label> 
+								<input type="text" class="form-control" id="nome" >
+							</div>
+							<div class="mb-3 col-md-6">
+								<label for="exampleInputEmail1" class="form-label">Telefone </label>
+								<input type="text" class="form-control" id="tel" >
+							</div>
+						</div>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email </label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -21,13 +31,14 @@
                             <label class="form-check-label" for="exampleCheck1">Mantenha-me conectado</label>
                         </div>
                         <div class="text-center">
-                            <button type="submit " class="btn px-5  orang bg-blue  cal-12" @click="loganUsuario()">LOGIN</button>
+                            <button type="submit " class="btn px-5  orang bg-blue  cal-12" @click="loganUsuario()">Cadastrar</button>
                         </div>
                     </form>
                 </div>
-            <div class="col-nd-4"></div>
+            <div class="col-nd-3"></div>
         </div>
     </section>
+	
 </template>
 
 <script>
