@@ -4,6 +4,7 @@ export const confirure ={
 };
 export const http = axios.create({
     // baseURL: "http://localhost/api/",
+    baseURL: location.originAPI,
     headers: {
         'Access-Control-Allow-Origin': '*',
         'Content-Type': 'application/json;charset=utf-8',

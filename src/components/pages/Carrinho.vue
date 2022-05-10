@@ -1,7 +1,7 @@
 <template>
 <section id="carrinho" class=" container p-2 bg-white1 ">
     <div class="">
-        <dvi class="row p-3">
+        <div class="row p-3">
             <div class="col-md-8 col-12">
                 <div class="">
                     <div class=" row">
@@ -29,7 +29,7 @@
             <div class="col-md-8 col-12">d</div>
             <div class="col-md-4 col-12">d</div>
             <div class="col-md-8 col-12">d</div>
-        </dvi>
+        </div>
     </div>
 </section>
 <!--start produtos-->

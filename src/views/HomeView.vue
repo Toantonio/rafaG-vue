@@ -16,7 +16,7 @@
 // import HelloWorld from './components/HelloWorld.vue';
 import NavBar from '@/components/NavBar.vue';
 import DemonsTracao from '@/components/Demonstracao.vue';
-import ProdutoSite from '@/components/pages/produto/produtosite.vue';
+import ProdutoSite from '@/components/produtosite.vue';
 // import PropaGanda from '@/components/propaganda.vue';
 import AreaSocial from '@/components/areasocial.vue';
 import MapSite from '@/components/MapSite.vue';

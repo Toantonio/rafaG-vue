@@ -19,25 +19,25 @@ const routes = [
 
     path:'/logon',// href="/logon" 
     name:'logonUser',
-    component: () => import('@/components/pages/logon/logon.vue')
+    component: () => import('@/views/logonView.vue')
   },
   {
 
     path:'/logonCadas',// href="/logon" 
     name:'LogonCadastro',
-    component: () => import('@/components/pages/logon/logoncadas.vue')
+    component: () => import('@/views/logonCadastroView.vue')
   },
   {
 
     path:'/ProdutoVenda',// href="/logon" 
     name:'ProdutoVenda',
-    component: () => import('@/components/pages/produto/produtovenda.vue')
+    component: () => import('@/views/produtovendaView.vue')
   },
   {
 
     path:'/ProdutoCadastro',// href="/logon" 
     name:'ProdutoCadastro',
-    component: () => import('@/components/pages/produto/produtovenda.vue')
+    component: () => import('@/views/produtovendaView.vue')
   }
 
 ]

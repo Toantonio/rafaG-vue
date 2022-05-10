@@ -1,41 +1,45 @@
 <template>
-  <div>
-    <!-- <NavbarPage /> -->
-    <section class="container">
-      <form action="" class="col-12 col-md-6 m-auto bg-white p-5">
-        <div class="form-group">
-          <label>E-mail</label>
-          <input
-            type="email"
-            v-model="dadosUsuario.usuario"
-            class="form-control"
-          />
+    <section id="logon" class=" container ">
+        <div class="row my-5">	
+            <div class="col-md-4"></div>
+                <div class="col-md-4 col-12 bor-1 rounded">
+                   
+                        <h2>Fazer Login</h2>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email </label>
+                            <input type="email" class="form-control" v-model=" dadosUsuario.usuario" 
+                             id="exampleInputEmail1" aria-describedby="emailHelp">                         
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Senha</label>
+                            <input type="password" v-model=" dadosUsuario.senha" 
+                            class="form-control" id="exampleInputPassword1">                                                   
+                        </div>
+                      
+                        <div class="text-center">
+                            <button type="button " class="btn px-5  orang bg-blue  cal-12" 
+                            @click="loganUsuario()">LOGIN</button> 
+                             <router-link type="button" class="btn px-5 orang bg-blue mt-3 col-12" 
+                             to="/">Sair </router-link>                                         
+                            <router-link to="/logonCadas" class="btn col-12 rounded-3 bg-orang pb-1 bor_1 mt-3 text-danger"
+                            ><b>cadastre-se</b> </router-link>					
+                        </div>
+                  
+                </div>
+            <div class="col-nd-4"></div>
         </div>
-        <div class="form-group">
-          <span class="d-flex justify-content-between"
-            ><label>Senha</label> <i>esqueceu senha!</i></span
-          >
-          <input
-            type="password"
-            v-model="dadosUsuario.senha"
-            class="form-control"
-          />
-        </div>
-        <div>
-          <input type="button" value="salvar" @click="loganUsuario()" />
-        </div>
-      </form>
-      {{ dadosUsuario }}
     </section>
-  </div>
 </template>
 
 <script>
-// import NavbarPage from "@/components/NavbarPage.vue";
+
+
 import UsuarioService from "@/services/usuario";
+
 export default {
-  components: {
-    // NavbarPage,
+     name:'logonUser',
+  components:{
+   
   },
   data() {
     return {
@@ -68,4 +72,5 @@ export default {
 </script>
 
 <style>
+
 </style>
