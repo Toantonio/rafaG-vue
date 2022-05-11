@@ -8,11 +8,11 @@
 						<div class="row">
 							<div class="mb-3 col-md-6">
 								<label for="exampleInputEmail1" class="form-label">Nome</label> 
-								<input type="text" v-model=" dadosUsuario.senha"  class="form-control" id="nome" >
+								<input type="text" v-model="Usuario.nome"  class="form-control" id="nome" >
 							</div>
 							<div class="mb-3 col-md-6">
 								<label for="exampleInputEmail1" class="form-label">Telefone </label>
-								<input type="text" v-model="tel" class="form-control" id="tel" >
+								<input type="text" v-model="Usuario.tel" class="form-control" id="tel" >
 							</div>
 						</div>
                         <div class="mb-3">

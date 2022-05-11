@@ -19,6 +19,7 @@
                 <!-- <a class="nav-link" href="@/components/pages/produto/produtoadd.vue" target="blanck">Carrinho</a> -->
                 <router-link to="/" class="nav-link">Carrinho</router-link>
               </li>
+                <router-link to="/ProdutoAdd" class="nav-link">Add produto</router-link>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   
@@ -26,10 +27,8 @@
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Quem somos</a></li>                
                 </ul>
-              </li>
-          
-            </ul>
-			
+              </li>          
+            </ul>			
           </div>
 		<div class="container-fluid col-md-6 p-0">
 			<form class="d-flex">
