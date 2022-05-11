@@ -2,12 +2,12 @@
 <div>
   <NavBar/>
   <DemonsTracao/>
-  <ProdutoSite/>
-  <!-- <PropaGanda/> -->
-  <AreaSocial/>
+  <NoviDade/>
+  <PropaGanda/>
+  <!-- <AreaSocial/> -->
   <MapSite/>
   <PGanda2/>
-  <NoviDade/>
+  <ProdutoSite/>
   <RodaPe/>
 </div>
 </template>
@@ -17,23 +17,23 @@
 import NavBar from '@/components/NavBar.vue';
 import DemonsTracao from '@/components/Demonstracao.vue';
 import ProdutoSite from '@/components/produtosite.vue';
-// import PropaGanda from '@/components/propaganda.vue';
-import AreaSocial from '@/components/areasocial.vue';
+import PropaGanda from '@/components/pages/propaganda/P-Ganda1.vue';
+// import AreaSocial from '@/components/areasocial.vue';
 import MapSite from '@/components/MapSite.vue';
 import PGanda2 from '@/components/pages/propaganda/p-ganda2.vue';
-import NoviDade from '@/components/novidades.vue';
+import NoviDade from '@/components/ProdutoNovidades.vue';
 import RodaPe from '@/components/footer.vue';
 
 export default {
   components: {  
     NavBar,
     DemonsTracao,
-    ProdutoSite,
-    // PropaGanda,
-    AreaSocial,
+    NoviDade,
+    PropaGanda,
+    // AreaSocial,
     MapSite,
     PGanda2,
-    NoviDade,
+    ProdutoSite,
     RodaPe
 
   }
